@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main8Activity"
+    android:id="@+id/relative">
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="upload file"
+        android:textSize="22sp"
+        android:padding="10dp"
+        android:background="#1E90FF"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/upload"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="67dp"
+        />
+
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="ADD PAGE"
+        android:background="#1E90FF"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:padding="10dp"
+
+        android:layout_centerHorizontal="true"
+        android:id="@+id/addpage"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="7dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="No file uploaded."
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/opensans"
+        android:id="@+id/notfound"
+
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:layout_marginTop="220dp"
+
+        />
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/clockface"
+        android:id="@+id/clockface"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/notfound"
+        android:layout_marginTop="60dp"
+        />
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/sadface"
+        android:id="@+id/sad"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/notfound"
+        android:layout_marginTop="60dp"
+        />
+    <ProgressBar
+        android:id="@+id/pBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:minWidth="250dp"
+        android:max="100"
+        android:elevation="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:indeterminate="true"
+        android:progress="1" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view4"
+
+        android:layout_gravity="center"
+        android:layout_width="320dp"
+        android:layout_marginTop="10dp"
+        android:padding="16dp"
+        android:layout_height="550dp"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="12dp"
+        android:elevation="11dp">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listview1"
+            android:layout_margin="6dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Enter Page Number:"
+            android:fontFamily="@font/hellight"
+            android:id="@+id/passwordtext"
+            android:layout_marginLeft="20dp"
+            android:textSize="24sp"
+            android:textColor="#000"
+
+            android:layout_marginTop="20dp"
+
+            />
+
+        <EditText
+            android:id="@+id/pageno"
+            android:layout_width="306dp"
+            android:layout_height="43dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/round_edittext"
+            android:fontFamily="@font/opensans"
+            android:hint="Page Number"
+            android:imeActionLabel="Search"
+            android:lines="1"
+            android:paddingLeft="13dp"
+            android:singleLine="true"
+            android:textSize="17sp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:hint="Enter the text for the specified page."
+            android:fontFamily="@font/opensans"
+            android:id="@+id/content"
+
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:inputType="textMultiLine|textNoSuggestions"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

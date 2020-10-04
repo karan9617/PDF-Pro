@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.NotificationsFragment"
+    android:background="#EBEBEB"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding="0px"
+        android:paddingBottom="4dp"
+        >
+        <EditText
+            android:id="@+id/searchedit"
+            android:layout_width="345dp"
+            android:layout_height="43dp"
+            android:paddingLeft="13dp"
+            android:fontFamily="@font/opensans"
+            android:layout_marginBottom="1dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:hint="Search here"
+            android:layout_centerHorizontal="true"
+            android:textSize="17sp"
+            android:singleLine="true"
+            android:imeActionLabel="Done"
+            android:lines="1"
+            android:background="@drawable/round_edittext"
+            />
+        </RelativeLayout>
+
+
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/cancel_icon"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="14dp"
+        android:id="@+id/cancel"
+        android:visibility="invisible"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/trashlistview"
+        android:visibility="invisible"
+        android:layout_marginTop="67dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="13.0sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview"
+        android:layout_marginTop="67dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="13.0sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        />
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Searching... :)"
+        android:id="@+id/searching"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:layout_marginTop="220dp"
+
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/pdfimage"
+        android:id="@+id/pdfimage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_alignTop="@+id/notfound"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Sorry No such File found.."
+        android:fontFamily="@font/opensans"
+        android:id="@+id/notfound"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:layout_marginTop="220dp"
+
+        />
+</RelativeLayout>

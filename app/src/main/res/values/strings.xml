@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PDF Pro</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Files</string>
+    <string name="title_notifications">Search</string>
+</resources>

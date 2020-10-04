@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:divider="?android:dividerVertical"
+    android:dividerPadding="11dp"
+    android:elevation="9dp"
+
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:orientation="horizontal"
+    android:showDividers="middle"
+    android:layout_marginLeft="25dp"
+    android:background="@drawable/relative_background"
+    android:layout_marginTop="3dp"
+    android:layout_marginRight="25dp"
+    android:weightSum="2"
+    android:layout_marginBottom="5dp"
+    >
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:focusable="false"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:focusableInTouchMode="false">
+        <!-- Dummy text view that will display the name of a random country. -->
+
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/pdfimage"
+            android:id="@+id/pdfimage"/>
+
+
+        <ImageView
+            android:id="@+id/dots"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/dots" />
+
+        <TextView
+            android:id="@+id/pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="46dp"
+            android:width="170dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:fontFamily="@font/opensans"
+            android:shadowColor="#ffdddddd"
+            android:text="PDF  .  "
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="117dp"
+
+            android:layout_marginTop="46dp"
+            android:width="170dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:shadowColor="#ffdddddd"
+            android:text="size"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:typeface="sans" />
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="171dp"
+
+            android:layout_marginTop="46dp"
+            android:width="170dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:shadowColor="#ffdddddd"
+            android:text="Time"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:typeface="sans" />
+        <TextView
+            android:id="@+id/filename"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="64dp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:width="250dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:fontFamily="@font/opensans"
+            android:shadowColor="#ffdddddd"
+            android:text="filename"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:typeface="sans" />
+    </RelativeLayout>
+</RelativeLayout>

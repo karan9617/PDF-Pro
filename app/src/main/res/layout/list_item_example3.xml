@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="66dp"
+    android:divider="?android:dividerVertical"
+    android:dividerPadding="11dp"
+    android:elevation="9dp"
+
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:orientation="horizontal"
+    android:showDividers="middle"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp"
+    android:weightSum="2">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:focusable="false"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:focusableInTouchMode="false">
+        <!-- Dummy text view that will display the name of a random country. -->
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/pdfimage"
+            android:id="@+id/pdfimage"/>
+
+        <ImageView
+            android:id="@+id/dots"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/dots" />
+
+        <TextView
+            android:id="@+id/pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="57dp"
+            android:layout_marginTop="33dp"
+            android:width="170dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+
+            android:fontFamily="@font/opensans"
+            android:shadowColor="#ffdddddd"
+            android:text="PDF"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="98dp"
+
+            android:layout_marginTop="33dp"
+            android:width="170dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:shadowColor="#ffdddddd"
+            android:text="size"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/filename"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="56dp"
+
+            android:layout_marginTop="9dp"
+            android:width="250dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:fontFamily="@font/opensans"
+            android:shadowColor="#ffdddddd"
+            android:text="filename"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:typeface="sans" />
+    </RelativeLayout>
+</RelativeLayout>

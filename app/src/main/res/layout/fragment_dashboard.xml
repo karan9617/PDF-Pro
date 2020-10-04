@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment"
+    android:background="#EBEBEB"
+
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view1"
+        android:layout_gravity="center"
+        android:layout_width="320dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        card_view:cardCornerRadius="12dp"
+        android:elevation="11dp">
+
+        <TextView
+            android:id="@+id/info_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create PDF's"
+            android:textColor="#1E90FF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="17dp"
+            android:src="@drawable/ic_create"
+
+            />
+        <TextView
+            android:id="@+id/description1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Create your own custom pdf's with text with any number of pages."
+            android:fontFamily="@font/opensans"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="112dp"
+            android:layout_marginTop="60dp"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view2"
+        android:layout_gravity="center"
+        android:layout_width="320dp"
+        android:layout_marginTop="174dp"
+
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        card_view:cardCornerRadius="12dp"
+        android:elevation="11dp">
+
+        <TextView
+            android:id="@+id/info_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Starred"
+            android:textColor="#1E90FF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="17dp"
+            android:src="@drawable/ic_star"
+
+            />
+        <TextView
+            android:id="@+id/description2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Star your important PDF's in a separate list..."
+            android:fontFamily="@font/opensans"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="112dp"
+            android:layout_marginTop="60dp"
+            />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view3"
+        android:layout_gravity="center"
+        android:layout_width="320dp"
+        android:layout_marginTop="340dp"
+
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        card_view:cardCornerRadius="12dp"
+        android:elevation="11dp">
+
+        <TextView
+            android:id="@+id/info_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All on Device"
+            android:textColor="#1E90FF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="17dp"
+            android:src="@drawable/ic_home_black_24dp"
+
+            />
+        <TextView
+            android:id="@+id/description3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Get all your PDF's on the device in one list. No need to search at different positions on the device."
+            android:fontFamily="@font/opensans"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="112dp"
+            android:layout_marginTop="52dp"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view4"
+        android:layout_gravity="center"
+        android:layout_width="320dp"
+        android:layout_marginTop="506dp"
+
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        card_view:cardCornerRadius="12dp"
+        android:elevation="11dp">
+
+        <TextView
+            android:id="@+id/info_text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Extract text from PDF's. "
+            android:textColor="#1E90FF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="17dp"
+            android:src="@drawable/ic_lock"
+            />
+        <TextView
+            android:id="@+id/description4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Extract the text part from PDF's from all the redundant images."
+            android:fontFamily="@font/opensans"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="112dp"
+            android:layout_marginTop="52dp"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view5"
+        android:layout_gravity="center"
+        android:layout_width="320dp"
+        android:layout_marginTop="670dp"
+        android:layout_marginBottom="100dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        card_view:cardCornerRadius="12dp"
+        android:elevation="11dp">
+
+        <TextView
+            android:id="@+id/info_text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add text to specified pages."
+            android:textColor="#1E90FF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="17dp"
+            android:src="@drawable/ic_description_black_24dp"
+            />
+        <TextView
+            android:id="@+id/description6"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Add text to the specified pages to get edit the information in PDF's."
+            android:fontFamily="@font/opensans"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="112dp"
+            android:layout_marginTop="52dp"
+            />
+    </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view6"
+                android:layout_gravity="center"
+                android:layout_width="320dp"
+                android:layout_marginTop="670dp"
+                android:layout_marginBottom="100dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                card_view:cardCornerRadius="12dp"
+                android:elevation="11dp">
+
+                <TextView
+                    android:id="@+id/info_text6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add text to specified pages."
+                    android:textColor="#1E90FF"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="17dp"
+                    android:src="@drawable/ic_description_black_24dp"
+                    />
+                <TextView
+                    android:id="@+id/description5"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Insert pages between pages by specifying the Page number and text to be inserted."
+                    android:fontFamily="@font/opensans"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="112dp"
+                    android:layout_marginTop="52dp"
+                    />
+            </androidx.cardview.widget.CardView>
+
+
+        </RelativeLayout>
+    </ScrollView>
+<!--
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/starlistview"
+        android:layout_marginTop="5dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="13.0sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        />
+-->
+
+</RelativeLayout>
